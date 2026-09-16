@@ -1,0 +1,22 @@
+<collection shelf="New Arrivals">
+    <model number="ST001">
+       <price>35000</price>
+       <qty>12</qty>
+       <company>Samsung</company>
+    </model>
+    <model number="RW345">
+       <price>46500</price>
+       <qty>14</qty>
+       <company>Onida</company>
+    </model>
+       <model number="EX366">
+       <price>30000</price>
+       <qty>8</qty>
+       <company>Lenovo</company>
+    </model>
+    <model number="FU699">
+       <price>45000</price>
+       <qty>12</qty>
+       <company>Acer</company>
+    </model>
+    </collection>

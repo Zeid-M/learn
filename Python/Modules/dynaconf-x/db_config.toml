@@ -1,0 +1,35 @@
+[default]
+
+
+[default.mysql]
+host = ""
+db = ""
+
+[default.mysql.root]
+username = "root"
+password = '34'
+
+[testing]
+
+[testing.mysql]
+host = ""
+db = ""
+
+[testing.mysql.root]
+username = "root"
+password = '34'
+
+[testing.mysql.admin]
+username = "admin"
+password = 'admin'
+
+
+[production]
+
+[production.mysql]
+host = ""
+db = ""
+
+[production.mysql.root]
+username = "root"
+password = '123'
