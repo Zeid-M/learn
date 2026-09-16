@@ -1,0 +1,26 @@
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    restart: unless-stopped
+    ports:
+      - "11434:11434"
+    deploy:
+      resources:
+        limits:
+          memory: 8g
+          cpus: "4"
+    security_opt:
+      - no-new-privileges
+    cap_drop:
+      - ALL
+    cap_add:
+      - SYS_NICE
+    read_only: true
+    volumes:
+      - ollama:/root/.ollama
+    runtime: nvidia # Enables GPU acceleration
+
+volumes:
+  ollama:
+    driver: local

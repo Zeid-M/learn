@@ -1,0 +1,10 @@
+urls:
+
+  - tgram://:
+    - tag: telegram
+ 
+  - mailtos://:
+     to: 
+     cc: 
+     from: iz
+     tag: email
